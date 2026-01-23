@@ -19,3 +19,6 @@
 - AWS
 - Postgres
 - Github Actions
+
+### Week 1
+*HTML Fundamentals*
