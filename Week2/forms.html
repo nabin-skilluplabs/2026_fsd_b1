@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Forms</title>
   </head>
+
   <body>
     <h1>Forms</h1>
 
-    <form action="/" method="get">
+    <form action="/" method="post">
       <table>
         <tr>
           <td>
@@ -153,6 +154,20 @@
           <td>
             <label for="resume">Upload resume</label>
             <input type="file" id="resume" name="resume" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="color" id="color" name="color" />
+            <input type="date" id="date" name="date" />
+            <input type="datetime-local" id="datetime" name="datetime" />
+            <input type="search" name="search" id="search" />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <input type="submit" value="Register" />
+            <input type="reset" value="Reset" />
           </td>
         </tr>
       </table>
