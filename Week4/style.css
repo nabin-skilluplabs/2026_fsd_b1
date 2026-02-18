@@ -1,0 +1,122 @@
+/* 
+Author: Skilluplabs
+Last modified: 2024-06-17
+Email: info@skilluplabs.com.au
+*/
+* {
+  /* border: 1px solid red; */
+}
+body {
+  font-family: Arial, sans-serif;
+}
+p {
+  font-size: 16px;
+}
+h2 {
+  font-size: 20px;
+}
+
+.baloon-box {
+  background-color: rgb(80, 77, 77);
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.baloon-box > p {
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  color: red;
+}
+
+section {
+  border: 1px solid blue;
+  padding: 20px;
+}
+
+.sub-section {
+  background-color: lightblue;
+}
+
+#heading {
+  text-decoration: underline;
+}
+
+ul + p + p {
+  color: green;
+}
+
+ul ~ p {
+  color: orange;
+}
+
+ul > li {
+  border: 1px solid salmon;
+  padding: 5px;
+  margin: 1px;
+}
+
+p,
+h1 {
+  text-align: center;
+}
+
+button {
+  background-color: brown;
+  font-size: 20px;
+  border: 1px solid brown;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: white;
+  color: brown;
+}
+input {
+  padding: 10px;
+  min-width: 200px;
+  font-size: 20px;
+  border: 1px solid black;
+}
+input:focus {
+  background-color: lightgray;
+}
+ul li:first-child {
+  color: red;
+}
+ul li:last-child {
+  color: green;
+}
+
+ul li:nth-child(3) {
+  color: blue;
+}
+
+p::first-letter {
+  font-size: 50px;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+li::marker {
+  color: green;
+  font-size: 100px;
+}
+li::before {
+  content: '👉';
+  font-size: 20px;
+}
+
+::selection {
+  background-color: yellow;
+}
+
+input[type='password'] {
+  background-color: lightskyblue;
+}

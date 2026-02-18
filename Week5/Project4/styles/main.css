@@ -1,0 +1,16 @@
+@import url('./reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #3d3d3d;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+main {
+  width: 755px;
+}
