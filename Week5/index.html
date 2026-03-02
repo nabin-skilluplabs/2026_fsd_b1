@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typography and Text Styling</title>
+    <style>
+        body {
+            height: 5000px;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2.5em;
+            font-weight: normal;
+            text-align: center;
+            text-decoration: underline;
+            text-transform: lowercase;
+            display: flex;
+        }
+
+        p {
+            line-height: 1.6em;
+            font-size: 18px;
+            font-family: 'Times New Roman', Times, serif;
+            letter-spacing: 1.5px;
+            word-spacing: 5px;
+            display: inline;
+        }
+
+        a {
+            background-color: #92a2b3;
+            padding: 20px;
+            font-size: 16px;
+            height: 50px;
+        }
+
+        .inline-block {
+            display: inline-block;
+
+        }
+
+        .box {
+            width: 50px;
+            height: 50px;
+            background-color: #000000;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+        }
+
+        .container {
+            position: sticky;
+            border: 1px solid red;
+            height: 200px;
+            top: 0px;
+            ;
+        }
+
+        .fixed-box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            border-radius: 50%;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Typography and Text Styling</h1>
+    <p>
+        In this project, we will explore various typography and text styling
+        techniques using HTML and CSS. We will cover topics such as font
+        selection, text alignment, line height, letter spacing, and more.
+    </p>
+
+    <a href="#" class="inline">Home</a>
+
+    <a href="#" class="inline-block">About</a>
+
+    <div class="container">
+        <div class="box">
+
+        </div>
+    </div>
+
+    <div class="fixed-box">
+
+    </div>
+
+
+
+</body>
+
+</html>
